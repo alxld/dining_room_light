@@ -34,6 +34,8 @@ class DiningRoomLight(NewLight):
             "Dining Room", domain=DOMAIN, debug=False, debug_rl=False
         )
 
+        self.entities["light.dining_room_chandeliers_group"] = None
         self.entities["light.dining_room_group"] = None
         self.switch = "Dining Room Switch"
         self.motion_sensors.append("Dining Room Motion Sensor")
+        self.has_brightness_threshold = True
