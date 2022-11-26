@@ -40,5 +40,5 @@ class DiningRoomLight(NewLight):
         self.motion_sensors.append("Dining Room Motion Sensor")
 
         self.has_brightness_threshold = True
-        self.brightness_threshold = 128
+        self.brightness_threshold = 191
         self.motion_sensor_brightness = 128
