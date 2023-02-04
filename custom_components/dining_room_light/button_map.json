@@ -1,5 +1,5 @@
 {
-    "on_hold": [
+    "on-hold": [
         [ [ "RightLight", "light.dining_room_group", 0 ],
           [ "RightLight", "light.dining_room_chandeliers_group", "Disable" ],
           [ "RightLight", "light.dining_table_chandelier_group", 30 ],
